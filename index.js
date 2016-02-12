@@ -13,7 +13,7 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'b46645fb-592c-4b1f-8f66-f059ea2c3d17',
+  appId: process.env.APP_ID || '41ccc57f-7fde-4089-a76d-34b100359ed4',
   masterKey: process.env.MASTER_KEY || 'nazar', //Add your master key here. Keep it secret!
   clientKey : 'android',
   restAPIKey : 'restKey'
