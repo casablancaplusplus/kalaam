@@ -16,7 +16,8 @@ var api = new ParseServer({
   appId: process.env.APP_ID || '41ccc57f-7fde-4089-a76d-34b100359ed4',
   masterKey: process.env.MASTER_KEY || 'nazar', //Add your master key here. Keep it secret!
   clientKey : 'android',
-  restAPIKey : 'restKey'
+  restAPIKey : 'restKey',
+      serverURL: 'http://localhost:1337/parse'
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
 // If you wish you require them, you can set them as options in the initialization above:
